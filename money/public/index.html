@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Money Tracker App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Money Tracker</h1>
+  </header>
+  <main>
+    <section class="expenses">
+      <h2>Expenses</h2>
+      <!-- Form to add expenses -->
+      <form id="expenseForm">
+        <label for="expenseTitle">Expense Title:</label>
+        <input type="text" id="expenseTitle" name="expenseTitle" required>
+
+        <label for="expenseAmount">Expense Amount:</label>
+        <input type="number" id="expenseAmount" name="expenseAmount" required>
+
+        <input type="submit" value="Add Expense">
+      </form>
+
+      <!-- Table to display expenses -->
+      <table id="expenseTable">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Expense data will be populated here -->
+        </tbody>
+      </table>
+    </section>
+
+    <section class="income">
+      <h2>Income</h2>
+      <!-- Form to add income -->
+      <form id="incomeForm">
+        <label for="incomeTitle">Income Title:</label>
+        <input type="text" id="incomeTitle" name="incomeTitle" required>
+
+        <label for="incomeAmount">Income Amount:</label>
+        <input type="number" id="incomeAmount" name="incomeAmount" required>
+
+        <input type="submit" value="Add Income">
+      </form>
+
+      <!-- Table to display income -->
+      <table id="incomeTable">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Income data will be populated here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>

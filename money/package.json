@@ -1,0 +1,23 @@
+{
+  "name": "money-tracker-app",
+  "version": "1.0.0",
+  "description": "A money tracker application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "money",
+    "tracker",
+    "expenses",
+    "income"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mongoose": "^6.0.13"
+    // Add other dependencies as needed
+  }
+}
